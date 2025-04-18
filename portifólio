@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Eng. João da Silva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header class="bg-white shadow p-6">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Eng. João da Silva</h1>
+        <nav class="space-x-6">
+          <a href="#sobre" class="text-gray-700 hover:text-blue-500">Sobre</a>
+          <a href="#projetos" class="text-gray-700 hover:text-blue-500">Projetos</a>
+          <a href="#contato" class="text-gray-700 hover:text-blue-500">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="bg-blue-100 py-16 text-center">
+      <h2 class="text-4xl font-bold mb-4">Engenharia com Precisão e Criatividade</h2>
+      <p class="text-lg">Projetos arquitetônicos e estruturais personalizados para cada necessidade.</p>
+    </section>
+
+    <section id="sobre" class="py-16 container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Sobre Mim</h2>
+      <p class="text-lg max-w-3xl">
+        Sou engenheiro civil com mais de 8 anos de experiência em projetos residenciais, comerciais e industriais.
+        Utilizo tecnologias como AutoCAD, Revit e SketchUp para entregar soluções modernas, seguras e sustentáveis.
+      </p>
+    </section>
+
+    <section id="projetos" class="bg-white py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-10 text-center">Projetos em Destaque</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Projeto 1 -->
+          <div class="bg-gray-100 p-6 rounded-lg shadow">
+            <img src="casa1.jpg" alt="Residência Alto da Serra" class="mb-4 rounded" />
+            <h3 class="text-xl font-semibold">Residência Alto da Serra</h3>
+            <p class="text-sm text-gray-600">Projeto arquitetônico e estrutural de 240m². Campos do Jordão, SP.</p>
+          </div>
+          <!-- Projeto 2 -->
+          <div class="bg-gray-100 p-6 rounded-lg shadow">
+            <img src="predio.jpg" alt="Edifício Comercial Vale Center" class="mb-4 rounded" />
+            <h3 class="text-xl font-semibold">Edifício Vale Center</h3>
+            <p class="text-sm text-gray-600">Edifício comercial de 5 andares. Projeto estrutural e compatibilização.</p>
+          </div>
+          <!-- Projeto 3 -->
+          <div class="bg-gray-100 p-6 rounded-lg shadow">
+            <img src="galpao.jpg" alt="Galpão Logístico" class="mb-4 rounded" />
+            <h3 class="text-xl font-semibold">Galpão Logístico</h3>
+            <p class="text-sm text-gray-600">Estrutura metálica com vão livre de 30m. Guarulhos, SP.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-16 bg-blue-50">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">Entre em Contato</h2>
+        <p class="mb-4 text-lg">📧 joao.silva@email.com | 📞 (11) 99999-9999</p>
+        <div class="space-x-4">
+          <a href="https://instagram.com/joaosilva.engenharia" class="text-blue-600 underline">Instagram</a>
+          <a href="https://www.joaosilvaengenharia.com.br" class="text-blue-600 underline">Site Oficial</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+      © 2025 João da Silva - Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
